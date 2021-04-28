@@ -12,3 +12,7 @@ const record = [
   {year: "2013", result: "L"},
   {year: "2012", result: "W"},
   {year: "2015", result: "N/A"} ]
+
+function superbowlWin (record){
+  let result = record.find((rec)=> rec.result === 'W')
+}
